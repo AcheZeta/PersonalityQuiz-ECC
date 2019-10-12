@@ -30,24 +30,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="fDc-0i-qkB">
-                                <rect key="frame" x="57" y="397.5" width="300.5" height="101.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="fDc-0i-qkB">
+                                <rect key="frame" x="0.0" y="397.5" width="414" height="101.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Qué tipo de pan eres?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPy-ez-VTQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="300.5" height="34.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Qué tipo de pan eres?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPy-ez-VTQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="34.5"/>
                                         <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEs-Vj-m5p">
-                                        <rect key="frame" x="97" y="71.5" width="106" height="30"/>
-                                        <state key="normal" title="Comenzar Quiz"/>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vih-gx-TO6">
+                                        <rect key="frame" x="0.0" y="71.5" width="414" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEs-Vj-m5p">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                                <state key="normal" title="Comenzar Quiz"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="SPy-ez-VTQ" firstAttribute="width" secondItem="JiE-Ux-JnS" secondAttribute="width" id="Qao-O6-ysH"/>
                             <constraint firstItem="fDc-0i-qkB" firstAttribute="centerY" secondItem="c1x-9w-TRy" secondAttribute="centerY" id="Ueo-IM-zeT"/>
                             <constraint firstItem="fDc-0i-qkB" firstAttribute="centerX" secondItem="c1x-9w-TRy" secondAttribute="centerX" id="a01-sV-iSb"/>
                         </constraints>
