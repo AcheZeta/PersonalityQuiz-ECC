@@ -31,7 +31,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
                                                 <state key="normal" title="Comenzar Quiz"/>
                                                 <connections>
-                                                    <segue destination="1ZS-eh-0YQ" kind="presentation" id="TKv-Jh-BXu"/>
+                                                    <segue destination="1ZS-eh-0YQ" kind="presentation" modalPresentationStyle="fullScreen" id="TKv-Jh-BXu"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -78,8 +78,18 @@
             <objects>
                 <viewController id="1ZS-eh-0YQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zHJ-sO-2s2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3y-YZ-Gph">
+                                <rect key="frame" x="184" y="406" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Mzy-yn-3tM" kind="presentation" modalPresentationStyle="fullScreen" id="DqZ-CI-wr8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ute-Wo-ud4"/>
                     </view>
