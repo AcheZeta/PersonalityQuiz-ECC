@@ -14,5 +14,19 @@ struct Answer {
 }
 
 enum Type {
-    case Francia, USA, Alemania, Mexico
+    case PanMuerto, PanAJo, PanCenteno, PanCuernito
+    
+    var definition: String {
+        switch self {
+        case .PanAJo:
+            return "Eres de buen comer"
+        case .PanCenteno:
+            return "Te mantienes Fit"
+        case .PanCuernito:
+            return "Que elegancia la de Francia"
+        case .PanMuerto:
+            return "Siempre con su abuelita"
+        }
+    }
 }
+
