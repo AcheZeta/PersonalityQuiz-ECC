@@ -17,6 +17,5 @@ class QuestionViewController: UIViewController {
     }
     
    // var questions: Array = ["En que pais te gustaria vivir?", "Con que te gusta combinar tu pan", "Que tan dulce prefieres el pan?"]
-    var questions = [Question(text: "En que pais te gustaria vivir?", type: .single, answer: [Answer(])]
-
+    var questions = [Question(text: "En que pais te gustaria vivir?", type: .single, answer: [Answer(text: "Francia", type: .PanCuernito)])]
 }
