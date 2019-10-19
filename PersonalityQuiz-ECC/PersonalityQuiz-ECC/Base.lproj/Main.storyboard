@@ -81,11 +81,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Mk-uU-A13">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Mk-uU-A13">
                                 <rect key="frame" x="155" y="520" width="104" height="30"/>
                                 <state key="normal" title="Submit Answer"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Co5-wV-lp7">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Co5-wV-lp7">
                                 <rect key="frame" x="155" y="596" width="104" height="30"/>
                                 <state key="normal" title="Submit Answer"/>
                             </button>
@@ -204,10 +204,19 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5E-2O-yY6">
+                                <rect key="frame" x="0.0" y="108" width="414" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="a5E-2O-yY6" firstAttribute="top" secondItem="ute-Wo-ud4" secondAttribute="top" constant="20" id="27C-uM-NGB"/>
+                            <constraint firstItem="a5E-2O-yY6" firstAttribute="leading" secondItem="ute-Wo-ud4" secondAttribute="leading" id="3Ss-2P-dN3"/>
                             <constraint firstItem="xpY-ml-AYM" firstAttribute="centerY" secondItem="zHJ-sO-2s2" secondAttribute="centerY" id="CXQ-fU-6XK"/>
+                            <constraint firstItem="ute-Wo-ud4" firstAttribute="trailing" secondItem="a5E-2O-yY6" secondAttribute="trailing" id="EEp-nh-tVf"/>
                             <constraint firstItem="Mgm-QS-YBf" firstAttribute="leading" secondItem="ute-Wo-ud4" secondAttribute="leading" constant="20" id="IzZ-ge-MfR"/>
                             <constraint firstItem="hq5-ka-PZh" firstAttribute="centerY" secondItem="zHJ-sO-2s2" secondAttribute="centerY" id="N4x-7n-9cL"/>
                             <constraint firstItem="xpY-ml-AYM" firstAttribute="leading" secondItem="ute-Wo-ud4" secondAttribute="leading" constant="20" id="SYu-Fm-Jhc"/>
@@ -220,12 +229,6 @@
                             <constraint firstItem="ute-Wo-ud4" firstAttribute="trailing" secondItem="hq5-ka-PZh" secondAttribute="trailing" constant="20" id="kWZ-pu-dJc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ute-Wo-ud4"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="0Mk-uU-A13"/>
-                                <exclude reference="Co5-wV-lp7"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Preguntas" id="Oum-aC-1oi"/>
                     <connections>
