@@ -210,12 +210,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Lg4-KI-Ey7">
+                                <rect key="frame" x="40" y="840" width="334" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="a5E-2O-yY6" firstAttribute="top" secondItem="ute-Wo-ud4" secondAttribute="top" constant="20" id="27C-uM-NGB"/>
                             <constraint firstItem="a5E-2O-yY6" firstAttribute="leading" secondItem="ute-Wo-ud4" secondAttribute="leading" id="3Ss-2P-dN3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lg4-KI-Ey7" secondAttribute="trailing" constant="20" id="C9E-Xd-upz"/>
                             <constraint firstItem="xpY-ml-AYM" firstAttribute="centerY" secondItem="zHJ-sO-2s2" secondAttribute="centerY" id="CXQ-fU-6XK"/>
+                            <constraint firstItem="Lg4-KI-Ey7" firstAttribute="leading" secondItem="zHJ-sO-2s2" secondAttribute="leadingMargin" constant="20" id="DKG-Zz-2ys"/>
                             <constraint firstItem="ute-Wo-ud4" firstAttribute="trailing" secondItem="a5E-2O-yY6" secondAttribute="trailing" id="EEp-nh-tVf"/>
                             <constraint firstItem="Mgm-QS-YBf" firstAttribute="leading" secondItem="ute-Wo-ud4" secondAttribute="leading" constant="20" id="IzZ-ge-MfR"/>
                             <constraint firstItem="hq5-ka-PZh" firstAttribute="centerY" secondItem="zHJ-sO-2s2" secondAttribute="centerY" id="N4x-7n-9cL"/>
@@ -227,6 +232,7 @@
                             <constraint firstItem="hq5-ka-PZh" firstAttribute="centerY" secondItem="zHJ-sO-2s2" secondAttribute="centerY" id="her-cy-z76"/>
                             <constraint firstItem="Co5-wV-lp7" firstAttribute="centerX" secondItem="zHJ-sO-2s2" secondAttribute="centerX" id="ipj-0F-8Fv"/>
                             <constraint firstItem="ute-Wo-ud4" firstAttribute="trailing" secondItem="hq5-ka-PZh" secondAttribute="trailing" constant="20" id="kWZ-pu-dJc"/>
+                            <constraint firstItem="ute-Wo-ud4" firstAttribute="bottom" secondItem="Lg4-KI-Ey7" secondAttribute="bottom" constant="20" id="kYj-SW-PkT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ute-Wo-ud4"/>
                     </view>
