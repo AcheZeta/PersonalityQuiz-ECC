@@ -17,6 +17,8 @@
 		BD8F15D523524F9900A5292B /* PersonalityQuiz_ECCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8F15D423524F9900A5292B /* PersonalityQuiz_ECCUITests.swift */; };
 		BDF7AF60235B84EE00462B45 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7AF5F235B84EE00462B45 /* QuestionViewController.swift */; };
 		BDF7AF62235B853E00462B45 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7AF61235B853E00462B45 /* ResultsViewController.swift */; };
+		BDF7AF64235B870800462B45 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7AF63235B870800462B45 /* Question.swift */; };
+		BDF7AF66235B871700462B45 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7AF65235B871700462B45 /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		BD8F15D623524F9900A5292B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF7AF5F235B84EE00462B45 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		BDF7AF61235B853E00462B45 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		BDF7AF63235B870800462B45 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		BDF7AF65235B871700462B45 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				BD8F15B423524F9500A5292B /* SceneDelegate.swift */,
 				BD8F15B623524F9500A5292B /* IntroductionViewController.swift */,
 				BD8F15B823524F9500A5292B /* Main.storyboard */,
+				BDF7AF63235B870800462B45 /* Question.swift */,
+				BDF7AF65235B871700462B45 /* Answer.swift */,
 				BDF7AF5F235B84EE00462B45 /* QuestionViewController.swift */,
 				BDF7AF61235B853E00462B45 /* ResultsViewController.swift */,
 				BD8F15BB23524F9800A5292B /* Assets.xcassets */,
@@ -268,6 +274,8 @@
 				BD8F15B723524F9500A5292B /* IntroductionViewController.swift in Sources */,
 				BD8F15B323524F9500A5292B /* AppDelegate.swift in Sources */,
 				BDF7AF60235B84EE00462B45 /* QuestionViewController.swift in Sources */,
+				BDF7AF66235B871700462B45 /* Answer.swift in Sources */,
+				BDF7AF64235B870800462B45 /* Question.swift in Sources */,
 				BDF7AF62235B853E00462B45 /* ResultsViewController.swift in Sources */,
 				BD8F15B523524F9500A5292B /* SceneDelegate.swift in Sources */,
 			);
