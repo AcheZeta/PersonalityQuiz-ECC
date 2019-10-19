@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+var questions: Array = ["En que pais te gustaria vivir?", "Con que te gusta combinar tu pan", "Que tan dulce prefieres el pan?"]
+
+struct Question {
+    var text: String
+    var type: ResponseType
+    var answer: [Answer]
+}
+
+enum ResponseType{
+    case single, multiple, ranged
+}

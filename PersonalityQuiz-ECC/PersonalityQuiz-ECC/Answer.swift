@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct Answer {
+    var text: String
+    var type: Type
+}
+
+enum Type {
+    case Francia, USA, Alemania, Mexico
+}
